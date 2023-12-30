@@ -2,3 +2,17 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+	--background-image: url(../images/cover-image.png);
+	--text-accent: #db00ff;
+	--accent-color: #ff0070;
+	--offset: 10px;
+	--text-color: #f1b2ce;
+}
+
+@media (min-width: 768px) {
+	:root {
+		--offset: 20px;
+	}
+}

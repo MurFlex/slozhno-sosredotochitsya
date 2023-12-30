@@ -22,7 +22,7 @@
 
 	grid-template-rows: min-content 1fr min-content 1fr;
 	font-family: IBM Plex Mono;
-	height: calc(100vh);
+	height: calc(100vh - 2 * var(--offset));
 }
 
 @media (min-width: 1024px) {
@@ -366,7 +366,7 @@
 }
 
 .footer {
-	height: calc(100vh);
+	height: calc(100vh - 2 * var(--offset));
 	display: flex;
 	align-items: center;
 	justify-content: center;

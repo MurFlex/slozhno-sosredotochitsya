@@ -5,6 +5,7 @@
 */
 
 .theme_dark {
+	--background-color: #000028;
 	--background-image: url(../images/cover-image-dark.png);
 	--text-accent: #db00ff;
 	--accent-color: #ff0070;
@@ -17,6 +18,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
+		--background-color: #000028;
 		--background-image: url(../images/cover-image-dark.png);
 		--text-accent: #db00ff;
 		--accent-color: #ff0070;

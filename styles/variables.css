@@ -9,6 +9,11 @@
 	--accent-color: #ff0070;
 	--offset: 10px;
 	--text-color: #f1b2ce;
+	--background-color: #000028;
+	--title-background: #ff0070;
+	--title-color: #000028;
+	--article-title: #ff0070;
+	--decoration-border: #ff0070;
 }
 
 @media (min-width: 768px) {

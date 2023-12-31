@@ -5,6 +5,7 @@
 */
 
 .theme_light {
+	--background-color: #fff1f7;
 	--background-image: url(../images/cover-image-light.png);
 	--text-accent: #ffc2e6;
 	--accent-color: #ff0070;
@@ -17,6 +18,7 @@
 
 @media (prefers-color-scheme: light) {
 	:root {
+		--background-color: #fff1f7;
 		--background-image: url(../images/cover-image-light.png);
 		--text-accent: #ffc2e6;
 		--accent-color: #ff0070;

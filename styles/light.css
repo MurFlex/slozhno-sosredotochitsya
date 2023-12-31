@@ -28,9 +28,9 @@
 		--article-title: #353430;
 		--decoration-border: #353430;
 	}
-}
 
-.theme_light > .header > .header__icon,
-.theme_auto > .header > .header__icon {
-	visibility: hidden;
+	.theme_light > .header > .header__icon,
+	.theme_auto > .header > .header__icon {
+		visibility: hidden;
+	}
 }

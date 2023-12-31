@@ -34,3 +34,7 @@
 		visibility: hidden;
 	}
 }
+
+.theme_light > .header > .header__icon {
+	visibility: hidden;
+}

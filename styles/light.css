@@ -14,6 +14,7 @@
 	--title-color: #353430;
 	--article-title: #353430;
 	--decoration-border: #353430;
+	--decoration-border-hover: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -27,14 +28,14 @@
 		--title-color: #353430;
 		--article-title: #353430;
 		--decoration-border: #353430;
+		--decoration-border-hover: rgba(50, 49, 45, 0.4);
 	}
 
-	.theme_light > .header > .header__icon,
-	.theme_auto > .header > .header__icon {
+	.theme_auto > .header > .header__theme-menu > .header__icon {
 		visibility: hidden;
 	}
 }
 
-.theme_light > .header > .header__icon {
+.theme_light > .header > .header__theme-menu > .header__icon {
 	visibility: hidden;
 }

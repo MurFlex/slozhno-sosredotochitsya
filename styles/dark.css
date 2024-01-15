@@ -14,6 +14,7 @@
 	--title-color: #000028;
 	--article-title: #ff0070;
 	--decoration-border: #ff0070;
+  --decoration-border-hover: rgba(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,5 +28,6 @@
 		--title-color: #000028;
 		--article-title: #ff0070;
 		--decoration-border: #ff0070;
+    --decoration-border-hover: rgba(255, 0, 112, 0.4);
 	}
 }
